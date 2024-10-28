@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="BrainWave Diagnostics Assignment" />
+        <meta name="author" content="Brian Bazurto" />
+        <title>BrainWave Diagnostics - Project Overview</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <style>
+            body {
+                font-family: 'DM Sans', sans-serif;
+                color: #333;
+                background-color: #e8e5da;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Fixed Navigation Bar */
+            nav {
+                background-color: #304c89;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                padding: 1rem;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.2rem;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            .masthead {
+                background: rgba(48, 76, 137, 0.8); /* #304c89 */
+                color: white;
+                padding: 2rem;
+                text-align: center;
+                position: relative;
+                z-index: 10;
+                margin-top: 70px; /* Offset for fixed navbar */
+            }
+            
+            /* Make the section semi-transparent with space for background */
+            .container {
+                max-width: 900px;
+                margin: auto;
+                padding: 2rem;
+                background-color: rgba(232, 229, 218, 0.8); /* Soft beige with transparency */
+                border-radius: 8px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+                position: relative;
+                z-index: 10;
+            }
+
+            section {
+                margin-top: 4rem;
+            }
+
+            h2 {
+                color: #304c89; /* Dark blue */
+            }
+
+            h4 {
+                color: #648de5; /* Light blue */
+            }
+
+            p, ul {
+                color: #333;
+            }
+
+            .bg-video {
+                position: fixed;
+                top: 0;
+                left: 0;
+                min-width: 100%;
+                min-height: 100%;
+                z-index: -1;
+                filter: brightness(50%);
+            }
+
+            .social-icons {
+                position: fixed;
+                bottom: 1rem;
+                left: 1rem;
+                z-index: 10;
+            }
+
+            .social-icons a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .p1 {
+                font-size: 1.25rem;
+                color: white;
+            }
+
+            .bg-light {
+                color: #304c89;
+            }
+
+            .container h2, .container h4 {
+                margin-bottom: 15px;
+            }
+
+            .btn-dark {
+                background-color: #CDC392; /* Gold color */
+                border-color: #CDC392;
+            }
+
+            .moodboard-section {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: 2rem;
+            }
+
+            .moodboard-item {
+                flex: 0 1 calc(33% - 2rem);
+                margin: 1rem;
+                background-color: #f7f7f7;
+                padding: 1rem;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                color: #333;
+            }
+
+            .moodboard-item img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            .moodboard-item p {
+                margin-top: 0.5rem;
+            }
+
+            .moodboard-section h4 {
+                margin-bottom: 1rem;
+            }
+
+            /* Colors for the moodboard items */
+            .moodboard-item:nth-child(1) {
+                background-color: #CDC392; /* Gold */
+            }
+
+            .moodboard-item:nth-child(2) {
+                background-color: #9EB7E5; /* Light blue */
+            }
+
+            .moodboard-item:nth-child(3) {
+                background-color: #648de5; /* Blue */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Fixed Navbar -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="personas.html">Personas</a>
+            <a href="scenarios.html">Scenarios</a>
+            <a href="storyboard.html">Storyboard</a>
+            <a href="moodboard.html">Moodboard</a>
+            <a href="flowchart.html">System Flowchart</a>
+            <a href="wireframe.html">Wireframe</a>
+            <a href="prototype.html">Prototype</a>
+            <a href="evaluation.html">Design Evaluation</a>
+            <a href="bibliography.html">Bibliography</a>
+        </nav>
+
+        <!-- Background Video-->
+        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
+        
+        <!-- Header-->
+        <header id="home" class="masthead">
+            <div class="container-fluid px-4 px-lg-0 text-white">
+                <h1 class="fst-italic lh-1 mb-4">BrainWave Diagnostics Project</h1>
+                <p class="p1">A web app utilizing Data Science and Machine Learning to analyze brain scan reports for ADHD detection.</p>
+                <p class="p1">Developed by Brian Bazurto</p>
+            </div>
+
+
+               <!-- Social Links -->
+                <p class="p1">
+                    <a href="https://linkedin.com/in/IBA001" target="_blank" style="color: #ffffff; text-decoration: none;">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a> |
+                    <a href="https://github.com/ba-00001" target="_blank" style="color: #ffffff; text-decoration: none;">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </p>
+            </div>
+        </header>
+
+
+
+        <!-- Video Section under Members -->
+<section class="container">
+    <h2>BrainWave Diagnostics: Helping Families Understand ADHD</h2>
+    <video controls width="100%">
+        <source src="https://github.com/user-attachments/assets/a4693cd1-dd70-4adc-bcc3-4ada5d90bbac" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+        <!-- Project Description Section -->
+        <section class="container">
+            <h2>BrainWave Diagnostics Project</h2>
+            <p><strong>Description:</strong> BrainWave Diagnostics Project is an innovative web application leveraging Data Science and Machine Learning to analyze brain scan reports for the detection and diagnosis of ADHD. This platform is designed for healthcare professionals, researchers, and individuals seeking advanced insights into brain activity patterns associated with ADHD.</p>
+
+            <p>The app processes brain scans from techniques such as fMRI, SPECT, and qEEG, extracting critical data points related to structural abnormalities, functional connectivity, and neurochemical imbalances. By applying advanced machine learning models, BrainWave Diagnostics Project identifies key markers of ADHD, providing users with comprehensive, data-driven reports.</p>
+
+            <h4>Features:</h4>
+            <ul>
+                <li><strong>AI-Powered Analysis:</strong> Automatically analyzes brain scans using Machine Learning algorithms trained to detect ADHD-specific patterns.</li>
+                <li><strong>Data-Driven Reports:</strong> Generate detailed reports highlighting gray matter volume, brainwave activity (theta/beta ratio), and neurotransmitter activity.</li>
+                <li><strong>Multi-Imaging Format Support:</strong> Compatible with fMRI, SPECT, and qEEG data, offering comprehensive scan analysis.</li>
+                <li><strong>Predictive Diagnostics:</strong> Leverages predictive models to provide probabilistic ADHD diagnoses based on brain scan data.</li>
+                <li><strong>Interactive Visualizations:</strong> Explore in-depth visual representations of the brain’s functional and structural changes related to ADHD.</li>
+                <li><strong>Secure Data Handling:</strong> All uploaded scan data is securely stored and processed in compliance with HIPAA regulations, ensuring patient confidentiality.</li>
+            </ul>
+
+            <p>Whether you're a clinician looking for decision-support tools or a researcher in neuroscience, BrainWave Diagnostics Project offers a robust, data-driven approach to ADHD detection and analysis.</p>
+        </section>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+                <a class="btn btn-dark m-3" href="https://twitter.com/brainwave"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-dark m-3" href="https://facebook.com/brainwave"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark m-3" href="https://instagram.com/brainwave"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

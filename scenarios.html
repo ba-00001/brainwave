@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Scenarios - BrainWave Diagnostics" />
+        <meta name="author" content="Brian Bazurto" />
+        <title>Scenarios - BrainWave Diagnostics</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <style>
+            body {
+                font-family: 'DM Sans', sans-serif;
+                color: #333;
+                background-color: #e8e5da;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav {
+                background-color: #304c89;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                padding: 1rem;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.2rem;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            .container {
+                max-width: 1000px;
+                margin: auto;
+                padding: 4rem 2rem 2rem; /* Adjusted padding-top for space below the navbar */
+            }
+
+            h2 {
+                color: #304c89;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .scenario {
+                margin-bottom: 2rem;
+                padding: 1rem;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .scenario-header {
+                display: flex;
+                align-items: center;
+                color: #648de5;
+                margin-bottom: 1rem;
+            }
+
+            .scenario-header i {
+                margin-right: 10px;
+                font-size: 1.5rem;
+                color: #304c89;
+            }
+
+            .step {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+
+            .step i {
+                margin-right: 10px;
+                color: #304c89;
+            }
+
+            .step p {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="personas.html">Personas</a>
+            <a href="scenarios.html">Scenarios</a>
+            <a href="storyboard.html">Storyboard</a>
+            <a href="moodboard.html">Moodboard</a>
+            <a href="flowchart.html">System Flowchart</a>
+            <a href="wireframe.html">Wireframe</a>
+            <a href="prototype.html">Prototype</a>
+            <a href="evaluation.html">Design Evaluation</a>
+            <a href="bibliography.html">Bibliography</a>
+            
+        </nav>
+
+        <div class="container">
+            <h2>Scenarios</h2>
+
+            <!-- Scenario for Sarah Thompson -->
+            <div class="scenario">
+                <div class="scenario-header">
+                    <i class="fas fa-user"></i>
+                    <h4>Scenario: Parent (Sarah Thompson)</h4>
+                </div>
+                <p>Sarah, a caring parent, has observed patterns of inattention and hyperactivity in her child and, after consultations, decides to use BrainWave Diagnostics for additional insights.</p>
+
+                <div class="step">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <p><strong>Initial Login and Guidance:</strong> Sarah logs into BrainWave Diagnostics, where the landing page offers a friendly, guided walkthrough. A prominent “Upload Brain Scans” button with a step-by-step guide reassures her on the steps needed.</p>
+                </div>
+                
+                <div class="step">
+                    <i class="fas fa-upload"></i>
+                    <p><strong>Uploading Brain Scans:</strong> Sarah chooses to upload her child’s SPECT and qEEG scan files. The platform uses visual aids, providing icons for each file type and giving clear feedback on successful uploads.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-brain"></i>
+                    <p><strong>Analysis and Report Generation:</strong> The system processes the scans and presents a summary within minutes. The report highlights potential markers of ADHD, including brainwave irregularities, and simplifies technical terms to help her understand the report’s implications.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-file-download"></i>
+                    <p><strong>Reviewing Recommendations:</strong> A final screen suggests consulting with a healthcare provider to discuss the results further. Sarah can download the report to bring to her child’s next doctor’s appointment and appreciates the clear call to action.</p>
+                </div>
+            </div>
+
+            <!-- Scenario for Dr. David Perez -->
+            <div class="scenario">
+                <div class="scenario-header">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Scenario: Healthcare Professional (Dr. David Perez)</h4>
+                </div>
+                <p>Dr. Perez, a pediatric neurologist, regularly uses BrainWave Diagnostics in his clinical practice to support ADHD diagnoses, especially in complex cases.</p>
+
+                <div class="step">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <p><strong>Dashboard Overview and Patient Selection:</strong> Dr. Perez logs into the platform and accesses his personalized dashboard, displaying a list of recent patient cases. He selects a new patient case and is directed to a detailed upload interface for different scan types.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-file-upload"></i>
+                    <p><strong>Uploading and Comparing Scan Data:</strong> He uploads fMRI and qEEG scans. BrainWave Diagnostics recognizes the file formats and shows a processing notification with estimated time for results, allowing Dr. Perez to multitask as he waits.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-chart-line"></i>
+                    <p><strong>Detailed Analysis Report:</strong> The system produces an in-depth report showing data on dopamine transporter binding, functional connectivity, and theta/beta ratio. Key metrics are highlighted with interpretation guides, helping Dr. Perez explain findings to parents with confidence.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-file-export"></i>
+                    <p><strong>Diagnostic Support and Consultation Tools:</strong> A “Consultation Summary” feature enables Dr. Perez to download a simplified version of the report for parents, enhancing their understanding. He can also export data for integration into his electronic health record (EHR) system, streamlining his practice.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

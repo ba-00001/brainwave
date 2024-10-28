@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Storyboard - BrainWave Diagnostics" />
+        <meta name="author" content="Brian Bazurto" />
+        <title>Storyboard - BrainWave Diagnostics</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <style>
+            body {
+                font-family: 'DM Sans', sans-serif;
+                color: #333;
+                background-color: #e8e5da;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav {
+                background-color: #304c89;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                padding: 1rem;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.2rem;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            .container {
+                max-width: 1000px;
+                margin: auto;
+                padding: 4rem 2rem 2rem;
+            }
+
+            h2 {
+                color: #304c89;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .storyboard {
+                margin-bottom: 2rem;
+                padding: 1rem;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .storyboard-header {
+                color: #648de5;
+                display: flex;
+                align-items: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .storyboard-header i {
+                font-size: 1.5rem;
+                color: #304c89;
+                margin-right: 10px;
+            }
+
+            .step {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .step i {
+                flex-shrink: 0;
+                font-size: 1.5rem;
+                margin-right: 30px;
+                color: #304c89;
+            }
+
+            .step p {
+                margin: 0;
+                padding: 0;
+                flex-grow: 1;
+            }
+
+            figure {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 1rem;
+            }
+
+            .storyboard-image img {
+                width: 100%;
+                border-radius: 8px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            figcaption {
+                font-size: 0.9rem;
+                color: #555;
+                text-align: center;
+                margin-top: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="personas.html">Personas</a>
+            <a href="scenarios.html">Scenarios</a>
+            <a href="storyboard.html">Storyboard</a>
+            <a href="moodboard.html">Moodboard</a>
+            <a href="flowchart.html">System Flowchart</a>
+            <a href="wireframe.html">Wireframe</a>
+            <a href="prototype.html">Prototype</a>
+            <a href="evaluation.html">Design Evaluation</a>
+            <a href="bibliography.html">Bibliography</a>
+        </nav>
+
+        <div class="container">
+            <h2>Storyboard</h2>
+
+            <!-- Storyboard for Sarah's Scenario -->
+            <div class="storyboard">
+                <div class="storyboard-header">
+                    <i class="fas fa-user"></i>
+                    <h4>Storyboard for Sarah’s Scenario</h4>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <p><strong>Step 1:</strong> Sarah logs into BrainWave Diagnostics and sees an easy-to-follow prompt for uploading brain scans.</p>
+                </div>
+                
+                <div class="step">
+                    <i class="fas fa-file-upload"></i>
+                    <p><strong>Step 2:</strong> She selects files from her device (qEEG and SPECT) and uploads them; a status bar confirms progress.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p><strong>Step 3:</strong> The platform processes the data, showing a brief loading animation.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-chart-bar"></i>
+                    <p><strong>Step 4:</strong> A summary report appears with an ADHD likelihood score and markers, like the theta/beta ratio, presented in simple visuals.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-file-download"></i>
+                    <p><strong>Step 5:</strong> She downloads the report and sees a prompt to consult with her healthcare provider, leaving her reassured and informed.</p>
+                </div>
+
+                <!-- Image with Caption for Sarah's Scenario -->
+                <figure class="storyboard-image">
+                    <img src="https://github.com/user-attachments/assets/bb5e9aaa-8607-4c6b-9314-a9950c75659f" alt="Sarah's Scenario Storyboard Image" />
+                    <figcaption>Image source: LTX Studio for Sarah’s Scenario</figcaption>
+                </figure>
+            </div>
+
+            <!-- Storyboard for Dr. Perez's Scenario -->
+            <div class="storyboard">
+                <div class="storyboard-header">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Storyboard for Dr. Perez’s Scenario</h4>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <p><strong>Step 1:</strong> Dr. Perez logs into BrainWave Diagnostics, accessing a dashboard with recent cases.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-folder-open"></i>
+                    <p><strong>Step 2:</strong> He selects a patient case and uploads fMRI and qEEG scans.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p><strong>Step 3:</strong> The system processes the scans, showing a brief loading animation.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-chart-line"></i>
+                    <p><strong>Step 4:</strong> The detailed report appears, displaying key metrics like dopamine levels and connectivity.</p>
+                </div>
+
+                <div class="step">
+                    <i class="fas fa-file-export"></i>
+                    <p><strong>Step 5:</strong> Dr. Perez downloads a simplified version of the report for parent discussions and exports data for his records.</p>
+                </div>
+
+                <!-- Image with Caption for Dr. Perez's Scenario -->
+                <figure class="storyboard-image">
+                    <img src="https://github.com/user-attachments/assets/a40faf9f-f319-4526-8775-473fb291759e" alt="Dr. Perez's Scenario Storyboard Image" />
+                    <figcaption>Image source: LTX Studio for Dr. Perez’s Scenario</figcaption>
+                </figure>
+            </div>
+        </div>
+    </body>
+</html>

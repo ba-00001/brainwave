@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personas - BrainWave Diagnostics" />
+        <meta name="author" content="Brian Bazurto" />
+        <title>Personas - BrainWave Diagnostics</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <style>
+            body {
+                font-family: 'DM Sans', sans-serif;
+                color: #333;
+                background-color: #e8e5da;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav {
+                background-color: #304c89;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                padding: 1rem;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.2rem;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: auto;
+                padding: 2rem;
+            }
+
+            section {
+                margin-top: 70px;
+            }
+
+            h2 {
+                color: #304c89;
+            }
+
+            h4 {
+                color: #648de5;
+            }
+
+            .persona-section {
+                display: flex;
+                align-items: flex-start;
+                background-color: #fff;
+                padding: 1.5rem;
+                border-radius: 8px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                margin-bottom: 2rem;
+            }
+
+            .persona-image {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                border-radius: 8px;
+                margin-right: 2rem;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .persona-details {
+                flex: 1;
+            }
+
+            figure {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0;
+            }
+
+            figcaption {
+                font-size: 0.9rem;
+                color: #555;
+                text-align: center;
+                margin-top: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="personas.html">Personas</a>
+            <a href="scenarios.html">Scenarios</a>
+            <a href="storyboard.html">Storyboard</a>
+            <a href="moodboard.html">Moodboard</a>
+            <a href="flowchart.html">System Flowchart</a>
+            <a href="wireframe.html">Wireframe</a>
+            <a href="prototype.html">Prototype</a>
+            <a href="evaluation.html">Design Evaluation</a>
+            <a href="bibliography.html">Bibliography</a>
+        </nav>
+
+        <section id="personas" class="p-5">
+            <div class="container">
+                <h2>Personas</h2>
+
+                <!-- Persona 1: Sarah Thompson -->
+                <div class="persona-section">
+                    <figure>
+                        <img src="https://github.com/user-attachments/assets/7b7de6c0-45c1-4c9f-8bcc-c5cc2382e602" alt="Sarah Thompson Image" class="persona-image" />
+                        <figcaption>Image source: LTX Studio</figcaption>
+                    </figure>
+                    <div class="persona-details">
+                        <h4>Persona 1: Parent of a Child with Suspected ADHD</h4>
+                        <p><strong>Name:</strong> Sarah Thompson <br><strong>Age:</strong> 38 <br><strong>Occupation:</strong> Teacher</p>
+
+                        <h5>Background and Goals</h5>
+                        <p>Sarah, a caring and attentive parent, has noticed behavioral patterns in her child that could suggest ADHD. Her main goal is to understand whether her child’s inattention and hyperactivity are due to ADHD and to use scientifically reliable tools to aid her decision-making. She feels a strong need for a clear diagnostic path to ensure her child receives the right support without resorting to unnecessary medication.</p>
+
+                        <h5>Behaviors</h5>
+                        <ul>
+                            <li>Regular consultations with healthcare professionals to discuss her child’s developmental needs.</li>
+                            <li>Uses educational and child development apps at home to monitor and assist in her child's learning process.</li>
+                            <li>Privacy-conscious and careful about the information she shares, especially when it comes to her child’s sensitive health data.</li>
+                        </ul>
+
+                        <h5>Motivations</h5>
+                        <p>Sarah is motivated by the desire to see her child succeed and thrive. She values scientifically backed, user-friendly tools to help her understand her child's needs, ideally without compromising on privacy. By utilizing such tools, she hopes to avoid premature or unnecessary treatment while ensuring that she takes any necessary steps early on.</p>
+                    </div>
+                </div>
+
+                <!-- Persona 2: Dr. David Perez -->
+                <div class="persona-section">
+                    <figure>
+                        <img src="https://github.com/user-attachments/assets/312ebaf9-ff9a-4a09-9fea-a177714588c8" alt="Dr. David Perez Image" class="persona-image" />
+                        <figcaption>Image source: LTX Studio</figcaption>
+                    </figure>
+                    <div class="persona-details">
+                        <h4>Persona 2: Healthcare Professional Specializing in ADHD</h4>
+                        <p><strong>Name:</strong> Dr. David Perez <br><strong>Age:</strong> 45 <br><strong>Occupation:</strong> Pediatric Neurologist</p>
+
+                        <h5>Background and Goals</h5>
+                        <p>Dr. Perez, a pediatric neurologist, specializes in diagnosing and managing ADHD in children. His primary goal is to have a reliable diagnostic tool that integrates brain scan data with machine learning insights, streamlining and enhancing the accuracy of the diagnostic process for ADHD. This would assist him in making well-informed diagnoses, particularly in borderline cases or complex presentations of ADHD.</p>
+
+                        <h5>Behaviors</h5>
+                        <ul>
+                            <li>Regularly incorporates technology into his clinical practice to provide a more detailed analysis.</li>
+                            <li>Values the scientific accuracy of any diagnostic tool he uses and keeps up with the latest ADHD research to stay at the forefront of his field.</li>
+                            <li>Uses an evidence-based approach in his diagnosis and treatment plans, and is open to tools that integrate seamlessly with his practice.</li>
+                        </ul>
+
+                        <h5>Motivations</h5>
+                        <p>Dr. Perez is motivated by the desire to improve patient outcomes. He values tools that are not only scientifically rigorous but also user-friendly for clinical applications. By combining his clinical expertise with cutting-edge technology, he seeks to elevate his diagnostic accuracy and, ultimately, enhance patient trust and satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

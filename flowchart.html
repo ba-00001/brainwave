@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="BrainWave Diagnostics System Flowchart" />
+    <meta name="author" content="Brian Bazurto" />
+    <title>BrainWave Diagnostics - System Flowchart</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #333;
+            background-color: #e8e5da;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #304c89;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem;
+            background-color: rgba(232, 229, 218, 0.9);
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 100px;
+        }
+
+        h2 {
+            color: #304c89;
+        }
+
+        h4 {
+            color: #648de5;
+        }
+
+        p, ul {
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="personas.html">Personas</a>
+        <a href="scenarios.html">Scenarios</a>
+        <a href="storyboard.html">Storyboard</a>
+        <a href="moodboard.html">Moodboard</a>
+        <a href="flowchart.html">System Flowchart</a>
+        <a href="wireframe.html">Wireframe</a>
+        <a href="prototype.html">Prototype</a>
+        <a href="evaluation.html">Design Evaluation</a>
+        <a href="bibliography.html">Bibliography</a>
+    </nav>
+
+    <!-- Flowchart Section -->
+    <section class="container">
+        <h2>BrainWave Diagnostics System Flowchart</h2>
+        <p>The BrainWave Diagnostics system follows a structured workflow to ensure accurate analysis of brain scan data for ADHD diagnosis. Below is the detailed description of the system flow and an illustrative flowchart.</p>
+
+        <h4>System Workflow:</h4>
+        <ul>
+            <li><strong>1. Entry Point:</strong> Users open the web application and select their role (Parent or Healthcare Professional).</li>
+            <li><strong>2. User Authentication:</strong> Users log in using HIPAA-compliant credentials, with an option for Single Sign-On (SSO).</li>
+            <li><strong>3. Upload Brain Scan Data:</strong> Users upload brain scan data (fMRI, SPECT, or qEEG). The system validates the format and ensures HIPAA compliance.</li>
+            <li><strong>4. Data Preprocessing:</strong> The system preprocesses the brain scans, cleaning the data and extracting key features.</li>
+            <li><strong>5. AI-Powered Analysis:</strong> Machine learning models analyze the scans to detect ADHD-specific patterns.</li>
+            <li><strong>6. Report Generation:</strong> A user-friendly report is generated with diagnostic probabilities and personalized recommendations.</li>
+            <li><strong>7. User Interaction:</strong> Parents receive simplified reports, while doctors receive detailed technical insights. Reports can be downloaded and shared.</li>
+            <li><strong>8. Secure Data Storage:</strong> Data and reports are securely stored with HIPAA-compliant encryption.</li>
+            <li><strong>9. Continuous Model Improvement:</strong> The machine learning models improve over time based on user feedback and new data.</li>
+        </ul>
+
+        <!-- Flowchart Image -->
+        <img src="https://github.com/user-attachments/assets/aadbb006-73e0-46ed-a918-96f797d7082b" alt="BrainWave Diagnostics System Flowchart" />
+
+    </section>
+
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
