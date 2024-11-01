@@ -65,31 +65,14 @@
             padding-left: 1.5rem;
         }
 
-        .submission-link {
-            text-align: center;
-            margin-top: 3rem;
-        }
-
-        .submission-link a {
-            color: #304c89;
-            font-size: 1.2rem;
-            text-decoration: none;
-        }
-
-        .submission-link a:hover {
-            text-decoration: underline;
-        }
-
         .wireframe-image {
-        width: 300px;  /* Fixed width of 400px */
-        height: auto;  /* Maintain aspect ratio */
-        display: block;
-        margin: 1.5rem auto;
-        border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      }
-
-
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 1.5rem auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
@@ -103,7 +86,7 @@
         <a href="flowchart.html">System Flowchart</a>
         <a href="wireframe.html">Wireframe</a>
         <a href="prototype.html">Prototype</a>
-        <a href="evaluation.html">Design Evaluation</a>
+
         <a href="bibliography.html">Bibliography</a>
     </nav>
 
@@ -112,65 +95,75 @@
 
         <h2>1. Theme and Metaphor Development</h2>
         <h3>Theme:</h3>
-        <p>The theme for BrainWave Diagnostics is centered around neuroscientific exploration and advanced diagnostics. The platform aims to be both scientific and user-friendly, catering to a diverse user base including healthcare professionals, researchers, and concerned parents. The theme draws inspiration from the complexity of brain functions and simplifies them for user interaction, making cutting-edge AI accessible and understandable for all users.</p>
-        <p>The design is meant to evoke trust, precision, and insight. Calm, professional colors such as soft blues and greens (for parents) and darker, more clinical tones like navy and gray (for professionals) are used to create a sense of reliability and innovation. The interface should look polished but not overwhelming, ensuring that users feel confident while interacting with the platform.</p>
+        <p>The theme for BrainWave Diagnostics revolves around neuroscientific exploration and precision diagnostics, combining scientific rigor with user-friendly design. The platform is crafted to appeal to a diverse user base, including healthcare professionals, researchers, and concerned parents. Drawing inspiration from the complexity of brain functions, the theme simplifies advanced AI diagnostics into an accessible and intuitive experience. Soft blues and greens create a calming interface for parents, while darker, clinical tones like navy and gray instill a sense of reliability for professionals. This thoughtful color scheme and polished design foster trust and confidence in the platform’s capabilities.</p>
 
         <h3>Metaphor for Interaction:</h3>
-        <p>The interaction metaphor is based on waves and pathways, symbolizing the brain’s electrical activity and the diagnostic journey. Users follow a smooth and intuitive flow, just like a wave, from uploading data to receiving actionable insights. The wave metaphor not only represents brainwave activity (which is integral to ADHD diagnostics) but also reflects the seamless process of navigating through the system.</p>
+        <p>The interaction metaphor is inspired by waves and pathways, symbolizing brainwave activity and the diagnostic journey. Navigation flows smoothly, representing the intuitive progression from data upload to insights. This wave-like interaction mirrors the platform’s emphasis on ADHD diagnostics, providing a seamless, scientifically-backed user experience.</p>
 
         <h2>2. Icons and Graphics</h2>
         <h3>Icons:</h3>
         <ul>
-            <li><strong>Brain Scan Upload:</strong> A stylized brain icon is used to represent the upload process, making it easy for users to identify where they can submit their fMRI, SPECT, or qEEG scans.</li>
-            <li><strong>Reports:</strong> Data visualization icons, such as small graph icons and brainwave patterns, are used within the report section.</li>
-            <li><strong>AI-Powered Diagnostics:</strong> An AI robot icon signifies the machine learning aspects of the platform, showing users that their data is being analyzed by advanced AI models.</li>
-            <li><strong>Secure Data Handling:</strong> A padlock icon will appear on upload and report pages, indicating that all data is HIPAA-compliant and securely handled.</li>
+            <li><strong>Brain Scan Upload:</strong> A stylized brain icon marks the upload section, where users can submit fMRI, SPECT, or qEEG scans.</li>
+            <li><strong>Reports:</strong> Icons such as graphs and brainwave patterns help users locate data visualizations and diagnostic summaries in the report section.</li>
+            <li><strong>AI-Powered Diagnostics:</strong> An AI robot icon highlights areas where machine learning analysis occurs, emphasizing the platform’s advanced AI capabilities.</li>
+            <li><strong>Secure Data Handling:</strong> A padlock icon appears on upload and report pages, reinforcing HIPAA-compliant and secure data handling practices.</li>
         </ul>
+
+        <h3>Whiteboard Elements:</h3>
+        <p>Whiteboard elements, such as placeholders and instructional overlays, are integrated into the interface to enhance usability. These elements provide real-time guidance, helping users understand the function of each feature and navigate the platform seamlessly.</p>
+        <img src="https://github.com/user-attachments/assets/b88dd00f-cdf8-488a-b0f7-c6c80eeb7663" alt="Whiteboard Elements" class="wireframe-image" />
 
         <h2>3. Screen Layout (Wireframes and Sketches)</h2>
         <h3>Wireframe Overview:</h3>
-        <p>The BrainWave Diagnostics interface is structured around ease of use and clean navigation. The wireframe for this project has been designed with a focus on:</p>
+        <p>The BrainWave Diagnostics interface prioritizes ease of use and clean navigation. The updated wireframes highlight the following key screens:</p>
+            <!-- Image representing all wireframes and the user flow -->
+            <img src="https://github.com/user-attachments/assets/1530e342-24dd-4f4c-bec6-41530c55f83e" alt="Full Wireframe Overview" class="full-wireframe-image" />
 
+       
         <ul>
-            <li><strong>Entry Page:</strong> The landing page allows users to choose between two roles (Parent or Healthcare Professional) upon login.</li>
-            <img src="https://github.com/user-attachments/assets/f5161dbb-c1fd-422c-a48f-dabb141bb37c" alt="Wireframe Entry Page" class="wireframe-image" />
+            <li><strong>Welcome Screen:</strong> The landing page greets users with the tagline “Unlocking Insights, Empowering Decisions” and a “Start” button to guide them to the sign-up screen.</li>
+            <img src="https://github.com/user-attachments/assets/323c02ee-31dd-49fd-ade0-57d81ed6ba73" alt="Wireframe Welcome Screen" class="wireframe-image" />
 
-            <li><strong>Dashboard for Data Management:</strong> Upon logging in, users are greeted with a dashboard containing sections for uploading brain scans, generating reports, and reviewing past reports.</li>
-            <img src="https://github.com/user-attachments/assets/157570f8-834a-475b-a9d1-f0cc4cc26d2d" alt="Wireframe Dashboard" class="wireframe-image" />
+            <li><strong>Sign-Up Screen:</strong> Users can create an account by entering their name, email, password, and role (Parent, Healthcare Professional).</li>
+            <img src="https://github.com/user-attachments/assets/74b8a978-8344-4b93-a29d-512d86739f7d" alt="Wireframe Sign-Up Screen" class="wireframe-image" />
 
-            <p>The dashboard includes the following sections:</p>
-            <ul>
-                <li><strong>Upload Brain Scans:</strong> Prominently placed buttons guide users through the secure upload process for fMRI, SPECT, or qEEG files.</li>
-                <img src="https://github.com/user-attachments/assets/c2cb3181-8a1d-4147-962b-9f34bd1c0d85" alt="Wireframe Brain Scans Layout" class="wireframe-image" />
-                <li><strong>Generate Reports:</strong> A section where users can request an AI-powered analysis of their uploaded scans.</li>
-                <img src="https://github.com/user-attachments/assets/aed08f05-925d-4fd7-8548-9c65e4f0a4c2" alt="Wireframe Generate Reports Layout" class="wireframe-image" />
-                <li><strong>Previous Reports:</strong> Users can review past diagnostic reports and download or share them with medical professionals.</li>
-                <img src="https://github.com/user-attachments/assets/bdd12de7-b0ec-4c6b-ab95-ca7f2f42b8b4" alt="Wireframe Previous Reports Layout" class="wireframe-image" />
-            </ul>
+            <li><strong>Dashboard:</strong> Upon logging in, users land on a central dashboard where they can upload brain scans, generate new reports, or review past reports. Each section is clearly labeled and easily accessible.</li>
+            <img src="https://github.com/user-attachments/assets/68b6e300-7a73-409d-9045-b2ca93694b77" alt="Wireframe Dashboard" class="wireframe-image" />
 
-            <li><strong>Report Layout:</strong> After the data analysis is complete, users are redirected to the report page, which provides diagnostic outcomes. For parents, the report is simplified with visual aids and a summary that explains the likelihood of ADHD. For healthcare professionals, the report includes detailed metrics, such as dopamine transporter levels, functional connectivity maps, and more.</li>
-            <img src="https://github.com/user-attachments/assets/3663f11e-8c54-4c42-a71c-48ca8c74bbe8" alt="Wireframe Report Layout" class="wireframe-image" />
+            <li><strong>Brain Scans Upload Screen:</strong> This screen offers options to upload specific brain scan types (fMRI, SPECT, qEEG) with identifiable icons for each type. A "New Report" button is also provided to initiate an AI-powered diagnostic report.</li>
+            <img src="https://github.com/user-attachments/assets/b3293ee1-7987-4daf-9d4a-e4a0d9a5d008" alt="Wireframe Brain Scans Upload Screen" class="wireframe-image" />
+
+            <li><strong>Report Highlights:</strong> This screen presents key findings from a report, offering users a quick overview before accessing more detailed information.</li>
+            <img src="https://github.com/user-attachments/assets/92e7cfdd-3707-4259-a8d1-203db8ea9d8d" alt="Wireframe Report Highlights" class="wireframe-image" />
+
+            <li><strong>Detailed Report (fMRI):</strong> Users can view an in-depth analysis of an fMRI scan, with content tailored to the user’s role. Parents receive a simplified report with visual aids, while healthcare professionals see detailed metrics such as dopamine transporter levels and connectivity maps.</li>
+            <img src="https://github.com/user-attachments/assets/dd171f97-c459-45bf-aa31-353a51ef057a" alt="Wireframe Detailed Report" class="wireframe-image" />
+
+            <li><strong>Previous Reports:</strong> Users can access a list of past reports, with options to view, download, or share each report. This feature enhances accessibility to historical data, supporting trend analysis.</li>
+            <img src="https://github.com/user-attachments/assets/c8da32f6-5390-4a36-8eb9-fde24fcbecb2" alt="Wireframe Previous Reports" class="wireframe-image" />
+
+            <li><strong>Report Analysis Progress:</strong> This screen shows the status of ongoing analyses, with options to start a new analysis or monitor current progress.</li>
+            <img src="https://github.com/user-attachments/assets/f6f24369-9785-492f-951d-46d0e1101b36" alt="Wireframe Report Analysis Progress" class="wireframe-image" />
         </ul>
 
         <h3>Wireframe Sketches:</h3>
-        <p>Sketches of the wireframe include placeholders for:</p>
+        <p>Each wireframe includes key navigation elements, with the exception of the Welcome Screen, Sign-Up Screen, and Report Analysis Progress Screen.</p>
         <ul>
-            <li><strong>Header/Navigation Bar:</strong> Links to "Upload", "Reports", and "Help".</li>
-            <img src="https://github.com/user-attachments/assets/418dc38e-ff90-4286-80e9-4bdd8a2d922c" alt="Header/Navigation Bar" class="wireframe-image" />
+            <li><strong>Header/Navigation Bar:</strong> Links to "Menu," "Notifications," "Share," and "Search" are consistently available across applicable screens, enabling easy access to main features and tools.</li>
+            <img src="https://github.com/user-attachments/assets/18623a21-136e-440e-8081-0ea08e8935fe" alt="Header/Navigation Bar" class="wireframe-image" />
         </ul>
 
         <h2>4. Media Content Production</h2>
         <h3>Video Elements:</h3>
-        <p>A short walkthrough video (2-3 minutes) demonstrates how users interact with the BrainWave platform, from uploading scans to generating reports.</p>
+        <p>A short (2-3 minute) walkthrough video is located at the top section of the <strong>Dashboard</strong>. This video provides a step-by-step guide to using the platform, from uploading scans to generating and viewing reports. It enhances user onboarding and ensures a smooth introduction to the platform for new users.</p>
 
         <h3>3D Brain Visualization:</h3>
-        <p>For healthcare professionals, an interactive 3D brain model is available in the report section. This allows users to rotate and explore different brain regions.</p>
+        <p>For healthcare professionals, an interactive 3D brain model is available on the <strong>Report Analysis Progress</strong> screen, allowing users to explore different brain regions relevant to ADHD diagnostics. This visualization enables rotation and zooming, providing an in-depth look at specific brain areas involved in the diagnostic process.</p>
 
         <h3>Audio Guides:</h3>
-        <p>Optional audio guides are included for parents, providing clear explanations of the diagnostic results in simple language.</p>
+        <p>For parents, optional audio guides accompany diagnostic results, offering explanations in simple, accessible language. The option to activate these guides is located within the <strong>Header/Navigation Bar</strong> under the "Menu" in the hamburger icon, making it easy to turn on audio support as needed. These guides simplify complex information, making the diagnostic insights more understandable for non-professionals.</p>
 
-        
-    </div>
+ </div>
 </body>
 
 </html>
